@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Load the dataset
-file_path = "user_profiles_clean.csv"   
+file_path = "cleaned_user_profiles.csv"   
 df = pd.read_csv(file_path)
 
 # Display basic dataset info
